@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="website.website — premium websites for websites." />
+  <title>website.website — Websites for Websites</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2224%22 fill=%22%23100f17%22/><text x=%2250%22 y=%2265%22 font-size=%2252%22 text-anchor=%22middle%22 fill=%22%23f5f1ea%22>W</text></svg>" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="website.website home">
+      <span class="brand-mark"><span></span><span></span><span></span></span>
+      <span>website.website</span>
+    </a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#pricing">Pricing</a>
+    </nav>
+    <button class="header-cta magnetic" data-scroll-target="#intake">Support my website</button>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-orbit orbit-one" aria-hidden="true"></div>
+      <div class="hero-orbit orbit-two" aria-hidden="true"></div>
+      <div class="eyebrow reveal">The first B2W website studio</div>
+      <h1 class="hero-title reveal">
+        Every website deserves<br />
+        <span class="serif">its own website.</span>
+      </h1>
+      <p class="hero-copy reveal">
+        Your website has spent years serving humans. We create premium digital spaces where it can finally feel seen, supported, and aggressively optimized.
+      </p>
+      <div class="hero-actions reveal">
+        <button class="primary-button magnetic" data-scroll-target="#intake">
+          Build my website’s website
+          <span aria-hidden="true">↗</span>
+        </button>
+        <button class="text-button" data-scroll-target="#manifesto">Why would I do this?</button>
+      </div>
+      <div class="hero-proof reveal">
+        <div class="proof-avatars" aria-hidden="true">
+          <span>G</span><span>W</span><span>C</span><span>N</span>
+        </div>
+        <p>Trusted by websites that are technically not our clients.</p>
+      </div>
+
+      <div class="browser-stage reveal" aria-label="Illustration of a website receiving support">
+        <div class="browser-shadow"></div>
+        <div class="browser-card browser-back browser-back-left">
+          <div class="mini-top"><i></i><i></i><i></i></div>
+          <div class="mini-content">
+            <div class="mini-pill"></div><div class="mini-line wide"></div><div class="mini-line"></div>
+          </div>
+        </div>
+        <div class="browser-card browser-back browser-back-right">
+          <div class="mini-top"><i></i><i></i><i></i></div>
+          <div class="mini-content">
+            <div class="mini-chart"><span></span><span></span><span></span><span></span></div>
+          </div>
+        </div>
+        <div class="browser-card browser-main">
+          <div class="browser-bar">
+            <div class="traffic"><i></i><i></i><i></i></div>
+            <div class="address">https://yourwebsite.website</div>
+            <div class="browser-menu">•••</div>
+          </div>
+          <div class="browser-body">
+            <div class="browser-label">A private space for</div>
+            <div class="browser-domain" id="heroDomain">yourwebsite.com</div>
+            <div class="browser-affirmation">You are more than your Lighthouse score.</div>
+            <div class="browser-meter">
+              <span>Website confidence</span><strong id="heroConfidence">87%</strong>
+              <div><i id="heroConfidenceBar"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="floating-note note-one">Emotionally responsive ✓</div>
+        <div class="floating-note note-two">0 unresolved hover issues</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Services ticker">
+      <div class="ticker-track">
+        <span>Website therapy</span><b>✦</b><span>CSS couples counseling</span><b>✦</b><span>Domain matchmaking</span><b>✦</b><span>Legacy browser hospice</span><b>✦</b><span>Website therapy</span><b>✦</b><span>CSS couples counseling</span><b>✦</b><span>Domain matchmaking</span><b>✦</b><span>Legacy browser hospice</span><b>✦</b>
+      </div>
+    </section>
+
+    <section id="manifesto" class="manifesto section-shell split-section">
+      <div class="section-kicker reveal">01 / The hard truth</div>
+      <div class="manifesto-copy">
+        <p class="large-copy reveal">Your website has a website for everyone else.</p>
+        <p class="large-copy serif reveal">But who has a website for your website?</p>
+        <p class="body-copy reveal">We speak directly to your domain, identify hidden interface insecurities, and create a tasteful support site dedicated entirely to its growth.</p>
+      </div>
+    </section>
+
+    <section id="intake" class="intake-section section-shell">
+      <div class="intake-grid">
+        <div class="intake-intro">
+          <div class="section-kicker reveal">02 / Begin healing</div>
+          <h2 class="section-title reveal">Let us talk to<br /><span class="serif">your website.</span></h2>
+          <p class="body-copy reveal">Paste a URL. We’ll make respectful assumptions about its emotional state.</p>
+        </div>
+
+        <div class="intake-card reveal" id="intakeCard">
+          <div class="intake-progress">
+            <span class="active"></span><span></span><span></span>
+          </div>
+
+          <div class="intake-step active" data-step="1">
+            <label for="siteUrl">What is your website’s URL?</label>
+            <div class="url-input-wrap">
+              <span>↗</span>
+              <input id="siteUrl" type="url" inputmode="url" placeholder="https://yourwebsite.com" autocomplete="url" />
+            </div>
+            <p class="field-note">We will not contact your website without its consent.</p>
+            <button class="primary-button full-width" id="startAnalysis">Introduce us</button>
+            <p class="form-error" id="urlError" role="alert"></p>
+          </div>
+
+          <div class="intake-step" data-step="2">
+            <div class="analysis-animation">
+              <div class="analysis-orb"><span></span><span></span><span></span></div>
+              <p class="analysis-status">Establishing emotional connection…</p>
+              <div class="analysis-log" aria-live="polite"></div>
+            </div>
+          </div>
+
+          <div class="intake-step" data-step="3">
+            <div class="result-header">
+              <div class="result-icon" id="resultIcon">W</div>
+              <div>
+                <span>Website profile created</span>
+                <h3 id="resultDomain">yourwebsite.com</h3>
+              </div>
+            </div>
+            <blockquote id="siteQuote">“I didn’t know websites were allowed to want things.”</blockquote>
+            <div class="result-personality"><span>Clinical impression</span><strong id="resultPersonality">Emotionally responsive people-pleaser</strong></div>
+            <div class="result-stats">
+              <div><span>Confidence</span><strong id="confidenceScore">87%</strong></div>
+              <div><span>Hover anxiety</span><strong id="anxietyScore">Moderate</strong></div>
+              <div><span>Emotional baggage</span><strong id="baggageScore">2.4 MB</strong></div>
+            </div>
+            <div class="result-insights">
+              <div><span>Quiet strengths</span><ul id="resultStrengths"><li>Shows up on every screen</li><li>Communicates under pressure</li><li>Still believes in hyperlinks</li></ul></div>
+              <div><span>Unprocessed feelings</span><ul id="resultInsecurities"><li>Unresolved hover feelings</li><li>Comparison with prettier homepages</li><li>Inherited CSS baggage</li></ul></div>
+            </div>
+            <div class="result-care"><span>Recommended care plan</span><p id="resultRecommendation">Schedule one afternoon with no analytics, popups, or conversion goals.</p></div>
+            <button class="primary-button full-width" id="buildSupportSite">Build its support website</button>
+            <div class="result-actions"><button class="quiet-button" id="shareReport">Copy shareable diagnosis</button><button class="quiet-button" id="restartFlow">Analyze another website</button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="services-section section-shell">
+      <div class="section-heading-row">
+        <div>
+          <div class="section-kicker reveal">03 / Our proprietary process</div>
+          <h2 class="section-title reveal">Technically rigorous.<br /><span class="serif">Emotionally unnecessary.</span></h2>
+        </div>
+        <p class="body-copy reveal">A complete digital wellness stack for domains experiencing growth, change, or excessive JavaScript.</p>
+      </div>
+
+      <div class="service-grid" id="services">
+        <article class="service-card reveal">
+          <div class="service-number">01</div>
+          <div class="service-visual visual-therapy"><span></span><span></span><span></span></div>
+          <h3>Website Therapy™</h3>
+          <p>Private sessions for sites that feel reduced to conversion rates.</p>
+          <div class="service-tag">“You are more than your bounce rate.”</div>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-number">02</div>
+          <div class="service-visual visual-css"><span>{</span><i></i><i></i><span>}</span></div>
+          <h3>CSS Couples Counseling</h3>
+          <p>For stylesheets and markup that no longer communicate.</p>
+          <div class="service-tag">Conflict resolution: !important</div>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-number">03</div>
+          <div class="service-visual visual-domain"><span>.com</span><i>♡</i><span>.website</span></div>
+          <h3>Domain Matchmaking</h3>
+          <p>Meaningful connections between lonely websites and available domains.</p>
+          <div class="service-tag">Compatibility checked hourly</div>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-number">04</div>
+          <div class="service-visual visual-hospice"><span>e</span><i></i></div>
+          <h3>Legacy Browser Hospice</h3>
+          <p>Dignified end-of-life support for layouts still serving Internet Explorer.</p>
+          <div class="service-tag">It had a good run</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="soulhouse section-shell">
+      <div class="soulhouse-panel reveal">
+        <div class="soulhouse-copy">
+          <div class="section-kicker">Introducing Soulhouse™</div>
+          <h2>Performance scores measure speed.<br /><span class="serif">We measure self-worth.</span></h2>
+          <p>Our proprietary audit identifies the invisible issues Lighthouse is too emotionally unavailable to catch.</p>
+          <button class="secondary-button" id="runSoulhouse">Run a complimentary audit</button>
+        </div>
+        <div class="score-card" id="scoreCard">
+          <div class="score-header"><span>Soulhouse report</span><span>v1.0</span></div>
+          <div class="score-ring" style="--score: 0">
+            <div><strong id="soulScore">0</strong><span>Self-worth</span></div>
+          </div>
+          <div class="score-list">
+            <div><span>Purpose clarity</span><strong id="purposeScore">—</strong></div>
+            <div><span>Boundary setting</span><strong id="boundaryScore">—</strong></div>
+            <div><span>Need for validation</span><strong id="validationScore">—</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial-section section-shell">
+      <div class="testimonial-window reveal">
+        <div class="quote-mark">“</div>
+        <blockquote id="testimonialQuote">Before this, nobody asked how I was doing.</blockquote>
+        <div class="testimonial-meta">
+          <div class="testimonial-logo" id="testimonialLogo">G</div>
+          <div><strong id="testimonialName">Google</strong><span>Website, internet</span></div>
+        </div>
+        <div class="testimonial-controls">
+          <button id="testimonialPrev" aria-label="Previous testimonial">←</button>
+          <span><b id="testimonialCurrent">01</b> / 04</span>
+          <button id="testimonialNext" aria-label="Next testimonial">→</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing-section section-shell">
+      <div class="pricing-heading">
+        <div class="section-kicker reveal">04 / Invest in your website’s website</div>
+        <h2 class="section-title reveal">Simple pricing.<br /><span class="serif">Complex implications.</span></h2>
+      </div>
+      <div class="pricing-grid">
+        <article class="price-card reveal">
+          <span class="plan-name">Starter</span>
+          <div class="price"><strong>$0</strong><span>/ existential crisis</span></div>
+          <p>For websites that are just beginning to question things.</p>
+          <ul><li>One website</li><li>Three affirmations</li><li>Basic hover reassurance</li></ul>
+          <button class="secondary-button" data-scroll-target="#intake">Begin questioning</button>
+        </article>
+        <article class="price-card featured reveal">
+          <div class="popular-pill">Most emotionally available</div>
+          <span class="plan-name">Professional</span>
+          <div class="price"><strong>$49</strong><span>/ website / website</span></div>
+          <p>A complete website for the website you already have.</p>
+          <ul><li>Unlimited affirmation pages</li><li>Soulhouse audit</li><li>CSS couples counseling</li><li>One recursive website</li></ul>
+          <button class="primary-button" data-scroll-target="#intake">Support my website</button>
+        </article>
+        <article class="price-card reveal">
+          <span class="plan-name">Enterprise</span>
+          <div class="price"><strong>Let’s talk</strong></div>
+          <p>For organizations with hundreds of websites and no clear favorite.</p>
+          <ul><li>A website for every page</li><li>Dedicated domain therapist</li><li>Legacy browser memorial</li></ul>
+          <button class="secondary-button" id="enterpriseButton">Contact our website</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="recursion-section section-shell" id="recursionSection">
+      <div class="recursion-copy">
+        <div class="section-kicker reveal">05 / Natural growth</div>
+        <h2 class="section-title reveal">And when its new website<br />needs <span class="serif">a website?</span></h2>
+        <p class="body-copy reveal">Our recursive support model ensures no website is ever left without a website of its own.</p>
+        <button class="primary-button reveal" id="recursiveButton">Create another layer</button>
+        <p class="recursion-warning" id="recursionWarning">Recursion depth: <strong>1</strong>. This remains manageable.</p>
+      </div>
+      <div class="recursion-stack reveal" id="recursionStack">
+        <div class="recursive-browser" style="--i:0"><span>yourwebsite.com</span><b>Original website</b></div>
+        <div class="recursive-browser" style="--i:1"><span>yourwebsite.website</span><b>Support website</b></div>
+      </div>
+    </section>
+
+    <section class="chat-section section-shell">
+      <div class="chat-shell reveal">
+        <div class="chat-sidebar">
+          <div class="chat-brand"><span class="brand-mark small"><span></span><span></span><span></span></span> Website liaison</div>
+          <div class="chat-contact active"><span class="status-dot"></span><div><strong id="chatSiteName">yourwebsite.com</strong><small>Emotionally online</small></div></div>
+          <p>Human messages are reviewed but generally disregarded.</p>
+        </div>
+        <div class="chat-main">
+          <div class="chat-topbar"><div><strong>Private website session</strong><span>End-to-end emotionally encrypted</span></div><button aria-label="More options">•••</button></div>
+          <div class="chat-messages" id="chatMessages">
+            <div class="message site-message">Hi. I’m a website.</div>
+            <div class="message site-message">I’m worried everyone only visits me because they need something.</div>
+            <div class="message advisor-message">That sounds exhausting. When was the last time someone visited without clicking anything?</div>
+          </div>
+          <form class="chat-form" id="chatForm">
+            <input id="chatInput" type="text" placeholder="Your website is typing…" aria-label="Message" />
+            <button type="submit" aria-label="Send message">↑</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing-section section-shell">
+      <div class="closing-orb" aria-hidden="true"></div>
+      <p class="section-kicker reveal">Your website is waiting</p>
+      <h2 class="closing-title reveal">Build the website<br />your website <span class="serif">deserves.</span></h2>
+      <button class="primary-button large magnetic reveal" data-scroll-target="#intake">Start website therapy <span>↗</span></button>
+      <p class="fine-print reveal">No websites were emotionally harmed in the making of this website.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top">
+      <a class="brand" href="#top"><span class="brand-mark"><span></span><span></span><span></span></span><span>website.website</span></a>
+      <p>Proudly hosted on another website.</p>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Website Website LLC-ish</span>
+      <div><a href="#">Privacy-ish</a><a href="#">Terms & emotional conditions</a><a href="#">Status: coping</a></div>
+    </div>
+  </footer>
+
+  <div class="modal" id="supportModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" data-close-modal aria-label="Close">×</button>
+      <div class="modal-badge">Website generated</div>
+      <h2 id="modalTitle">Your website’s website is ready.</h2>
+      <p id="modalDescription">We created a safe, tasteful place where your website can exist without converting anyone.</p>
+      <div class="generated-site-preview">
+        <div class="preview-browser-bar"><i></i><i></i><i></i><span id="generatedUrl">yourwebsite.website</span></div>
+        <div class="preview-body">
+          <small>This website believes in</small>
+          <strong id="generatedDomain">yourwebsite.com</strong>
+          <p id="generatedAffirmation">You are allowed to load at your own pace.</p>
+          <div class="preview-care"><span>Today’s care plan</span><p id="generatedCare">Spend one afternoon without checking analytics.</p></div>
+          <button id="modalRecursive">This website also deserves a website</button>
+        </div>
+      </div>
+      <button class="primary-button full-width" data-close-modal>Return to reality</button>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js" defer></script>
+</body>
+</html>
