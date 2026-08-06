@@ -14,7 +14,7 @@ This version uses the polished original HTML/CSS art direction, a native Cloudfl
 - Famous-domain Easter eggs
 - Homepage metadata inspection for more specific reports
 - Edge caching by domain to reduce duplicate API charges
-- Soulhouse audit, generated support website, therapy chat, testimonials, recursion, and hidden ending
+- Soulhouse audit, generated support website, therapy chat, testimonials, recursion, and hidden ending 
 - Shareable `?site=domain.com` report links
 
 ## Deploy on Cloudflare Workers
